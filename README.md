@@ -47,14 +47,13 @@ JDBC URL: `jdbc:h2:mem:pedidosdb`
 
 ---
 
-## 🧪 Exemplos de Requisições (JSON)
+##  Exemplos de Requisições 
 
-
-### Retornar Pedidos Especificados com ID (GET /pedidos/{id})
-![image](https://github.com/user-attachments/assets/dcbc2a99-08ee-4c6e-adb1-0f59929eeabb)
 
 
 ### Criar Pedido (POST /pedidos)
+
+```Json
 {
   "clienteNome": "Lucca Vilaça Okubo",
   "valorTotal": 150.0
