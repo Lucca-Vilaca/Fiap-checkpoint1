@@ -49,20 +49,18 @@ JDBC URL: `jdbc:h2:mem:pedidosdb`
 
 ## 🧪 Exemplos de Requisições (JSON)
 
-### Retornar Pedidos (GET /pedidos)
-![alt text](image-1.png)
 
 ### Retornar Pedidos Especificados com ID (GET /pedidos/{id})
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/dcbc2a99-08ee-4c6e-adb1-0f59929eeabb)
+
 
 ### Criar Pedido (POST /pedidos)
-```json
 {
-  "clienteNome": "Pedro Henrique Pontes Farath",
+  "clienteNome": "Lucca Vilaça Okubo",
   "valorTotal": 150.0
 }
 ```
-![alt text](image.png)
+
 
 ### Atualizar Pedido (PUT /pedidos/1)
 ```json
@@ -70,13 +68,9 @@ JDBC URL: `jdbc:h2:mem:pedidosdb`
   "clienteNome": "Alice Freitas",
   "valorTotal": 250.00
 }
-```
-![alt text](image-3.png)
-
----
 
 ### Deletar Pedidos (DELETE /pedidos/1)
-![alt text](image-4.png)
+
 
 ## 🧑‍💻 Como rodar o projeto
 
@@ -84,7 +78,6 @@ JDBC URL: `jdbc:h2:mem:pedidosdb`
 ```bash
 mvn spring-boot:run
 ```
-
-### Ou rode diretamente na sua IDE (IntelliJ / Eclipse / VSCode).
+### Ou rode diretamente na sua IDE 
 
 ---
